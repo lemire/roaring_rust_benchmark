@@ -1,0 +1,10 @@
+[package]
+name = "roaring_rust_benchmark"
+version = "0.1.0"
+authors = ["Daniel Lemire <lemire@gmail.com>"]
+license = "WTFPL"
+
+
+[dependencies]
+roaring = { git = "https://github.com/Nemo157/roaring-rs.git" }
+croaring = { git = "https://github.com/saulius/croaring-rs.git" }
